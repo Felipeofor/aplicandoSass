@@ -1,0 +1,50 @@
+/***********************************HEADER STYLES***********************************/
+#mainHeader {
+    position: relative;
+    max-height: fit-content;
+    padding: 1em 1em 0 0;
+    z-index: 900;
+    background: #fff;
+    border-bottom: 1px #E52E2D solid;
+    overflow: hidden;
+  }
+  
+  .logo {
+    float: left;
+    margin: -0.3em 0 0.1em 0.5em;
+    line-height: 1;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #1c246c;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  #mainHeader ul {
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    text-align: right;
+  }
+  
+  #mainHeader ul li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.5;
+
+    a {
+    color: #454545;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  }
+  
+  
+  
+  #mainHeader ul li a:hover {
+    color: #740202;
+  }
+  
+  .li a:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
